@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web</title>
+    </head>
+    <body>
+     <form>
+         <label>User name: </label><input type="text" name="text" id="text"><br/><br/>
+         <input type="button" value="Submit" id="button"/>
+         <a href="page/home.html" id="newpage"></a>
+     </form>
+
+     <script>
+
+
+       var p=document.getElementById("text");
+       var button=document.getElementById("button");
+       var page=document.getElementById("newpage");
+
+
+
+       button.addEventListener("click" ,function(){
+           window.open("page/404.html");
+       });
+
+
+     </script>
+    </body>
+</html>
